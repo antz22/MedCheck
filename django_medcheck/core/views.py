@@ -76,19 +76,21 @@ def webScrape(request):
     element.click()
 
     textInSummary = []
-    textInSummary = driver.find_element_by_xpath('//*[@id="Summary"]/b[2]/a').text
+    textInSummary = driver.find_element_by_xpath('//*[@id="Summary"]/b[2]/a').text  # changed path
 
     numberOfTimesSeenPunctuation = 0
     i = 0
     finalSummary = []
 
     while True:
-    	if i < 24:
+    	if i < 24:     #this is what we added
     		continue
         if numberOfTimesSeenPunctuation == 4:
             break
         if textInSummary[i] == '?' or textInSummary[i] == '.' or textInSummary[i] == '!':
             numberOfTimesSeenPunctuation += 1
-        finalSummary.append(textInSummary[i])
+        finalSummary.append(textInSummary[i])    # this is what we changed
         # oput.write(textInSummary[i])
         i += 1
+
+    jsonStringSummary = json.dumps(finalSummary)  # this is what we added
