@@ -26,6 +26,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from .models import User, Diagnosis
 from .serializers import DiagnosisSerializer
 
+import requests
 
 class DiagnosesList(APIView):
     authentication_classes = [authentication.TokenAuthentication]
@@ -137,3 +138,27 @@ def webScrape(request):
 
     # should return json
     return Response({'summary': finalSummary}, status=status.HTTP_200_OK)
+
+def getLocation(severity):
+    URL = "https://discover.search.hereapi.com/v1/discover"
+    latitude = 40.421249
+    longitude = -74.702431
+    api_key = 'PQFopwzmkhU5CuVAeByR9uaK0KlCdy2C6xX4aeEzA5I'
+    query = 'pharmacies'
+
+    if (severity == 3):
+        return "Stay at home"
+    elif (severity == 1):
+        query = 'hospitals'
+    limit = 5
+
+    PARAMS = {
+            'apikey':api_key,
+            'q':query,
+            'limit': limit,
+            'at':'{},{}'.format(latitude,longitude)
+         }
+
+    r = requests.get(url = URL, params = PARAMS)
+    data = r.json()
+    return data['items'][0]['address']['label']
