@@ -8,7 +8,7 @@
               android:selectedTabTextColor="#ffffff"
               androidSelectedTabHighlightColor="#ffffff"
               androidTabsPosition="bottom"
-              selectedIndex="0">
+              selectedIndex="1">
 
       <!-- <TabViewItem class="fas" title.decode="Home &#xf015;"> -->
       <!-- <TabViewItem class="fas" title.decode="&#xf469;"> -->

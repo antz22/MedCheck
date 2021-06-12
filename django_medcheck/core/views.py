@@ -49,8 +49,6 @@ def getUserData(request):
     diagnoses = len(Diagnosis.objects.filter(user=user))
     critical = len(Diagnosis.objects.filter(user=request.user, severity="3"))
     gender = user.gender
-    print(gender)
-    print(type(gender))
     if gender == "1":
         gender = "male"
     else:

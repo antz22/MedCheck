@@ -2,6 +2,8 @@ import Vue from 'nativescript-vue'
 import App from './views/App'
 import LandingPage from './views/LandingPage'
 import Login from './views/Login'
+import Diagnose from './views/Diagnose'
+import DiagnosisView from './components/DiagnosisView'
 import axios from 'axios'
 import VueDevtools from 'nativescript-vue-devtools'
 
