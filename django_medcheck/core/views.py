@@ -66,7 +66,8 @@ def webScrape(request):
 
     # fill in webscraping code
 
-    driver = webdriver.Firefox(executable_path='geckodriver')
+    os.environ['MOZ_HEADLESS'] = '1'
+    driver = webdriver.Firefox()
     driver.get("https://www.malacards.org/")
 
     driver.find_element_by_xpath('//*[@id="search-box-input"]').send_keys(diagnosis)
@@ -78,31 +79,27 @@ def webScrape(request):
     element = driver.find_element_by_xpath('/html/body/div[1]/div/div[4]/div/table/tbody/tr[2]/td[5]/a')
     element.click()
 
-    print(element)
-
     textInSummary = []
     # textInSummary = driver.find_element_by_xpath('//*[@id="Summary"]/b[2]/a').text  # changed path
     textInSummary = driver.find_element_by_xpath('//*[@id="Summary"]').text  # changed path
-
-    print(textInSummary)
 
     numberOfTimesSeenPunctuation = 0
     i = 0
     finalSummary = []
 
-    print('Before while loop')
-
     deletedPrev = False
 
     while True:
-        # if deletedPrev == False:
-        #     i += 1
-        #     if textInSummary[i] >= '0' and textInSummary[i] <= '9' and textInSummary[i] == ' ':
-        #         textInSummary = textInSummary[i:]
-        #         deletedPrev = True
-        #         i = 0
+        if deletedPrev == False:
+            # check if its a number, between 0 and 9
+            if ord(textInSummary[i]) >= 48 and ord(textInSummary[i]) <= 57 and textInSummary[i+1] == ' ':
+                textInSummary = textInSummary[i+1:]
+                deletedPrev = True
+                i = 0
+            else:
+                i += 1
 
-        # else:
+        else:
             if numberOfTimesSeenPunctuation == 4:
                 break
             if textInSummary[i] == '?' or textInSummary[i] == '.' or textInSummary[i] == '!':
@@ -113,13 +110,8 @@ def webScrape(request):
     
     finalSummary = ''.join(finalSummary)
     
-    print(finalSummary)
-
-    # jsonStringSummary = json.dumps(finalSummary)  # this is what we added
-    # return(jsonStringSummary)
-
     driver.quit()
 
 
     # should return json
-    return Response({'summary': finalSummary})
+    return Response({'summary': finalSummary}, status=status.HTTP_200_OK)

@@ -89,7 +89,6 @@ import axios from 'axios'
 			},
 			getDiagnosis() {
 				this.diagnosis = {'Name': 'Bloated belly'}
-				this.webScrape()
 				// const base = 'https://sandbox-healthservice.priaid.ch/diagnosis'
 				// let symptomsArr = Object.values(this.symptoms).map((id) => {
 				// 	return id
@@ -109,7 +108,7 @@ import axios from 'axios'
 				// 		this.diagnosis = response.data
 				// 		console.log(response.data[0])
 				// 	})
-				// this.webScrape()
+				this.webScrape()
 			},
 			webScrape() {
 				const django_base = 'http://0.0.0.0:5000/api/v1/web-scrape/'
@@ -123,7 +122,7 @@ import axios from 'axios'
 						this.postDiagnosis()
 					})
 					.catch(error => {
-						console.log(error)
+						// console.log(error)
 					})
 
 			},
