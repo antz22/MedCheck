@@ -52,6 +52,7 @@ import axios from 'axios'
 
 				diagnosis: [],
 				summary: '',
+        location: '',
       };
     },
     watch: {
@@ -119,13 +120,28 @@ import axios from 'axios'
 					.then(response => {
 						console.log(response.data)
 						this.summary = response.data.summary
-						this.postDiagnosis()
+						this.getLocation()
 					})
 					.catch(error => {
 						console.log(error)
 					})
 
 			},
+      getLocation() {
+        const django_base = 'http://0.0.0.0:5000/api/v1/get-location/'
+				axios
+					.post(django_base, {
+						severity: `${this.diagnosis.Rank}`
+					})
+					.then(response => {
+						console.log(response.data)
+						this.location = response.data['items'][0][label]
+            this.postDiagnosis()
+					})
+					.catch(error => {
+						console.log(error)
+					})
+      },
 			postDiagnosis() {
 				const django_base = 'http://0.0.0.0:5000/api/v1/create-diagnosis/'
 				axios
@@ -133,7 +149,7 @@ import axios from 'axios'
 						condition: `${this.diagnosis.Name}`,
 						severity: `${this.diagnosis.Rank}`,
 						summary: `${this.summary}`,
-						location: `hello`,
+						location: `${this.location}`,
 						// location: `${this.diagnosis.Name`,
 
     // condition = diagnosis_data['condition']
