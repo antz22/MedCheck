@@ -80,7 +80,9 @@ export default {
 
           localStorage.setItem("token", token)
 
-          const toPath = this.$route.query.to || '/home'
+          const toPath = this.$route.query.to || '/'
+
+          console.log(token)
 
           this.$router.push(toPath)
         })

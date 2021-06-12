@@ -9,7 +9,7 @@ class User(AbstractUser):
         ("2", "female")
     ]
 
-    gender = models.CharField(choices=GENDERS)
+    gender = models.CharField(choices=GENDERS, max_length=64, default="1")
 
    
 
@@ -22,9 +22,9 @@ class Diagnosis(models.Model):
     ]
 
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="diagnoses")
-    condition = models.CharField(null=True, blank=True)
-    severity = models.CharField(choices=SEVERITIES, default="3")
+    condition = models.CharField(null=True, blank=True, max_length=64)
+    severity = models.CharField(choices=SEVERITIES, default="3", max_length=64)
     summary = models.TextField(null=True, blank=True)
-    location = models.CharField(null=True, blank=True)
+    location = models.CharField(null=True, blank=True, max_length=64)
 
 
