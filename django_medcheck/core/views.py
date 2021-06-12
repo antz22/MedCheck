@@ -139,7 +139,11 @@ def webScrape(request):
     # should return json
     return Response({'summary': finalSummary}, status=status.HTTP_200_OK)
 
-def getLocation(severity):
+def getLocation(request):
+    
+    req_data = request.data
+    severity = req_data['severity']
+    
     URL = "https://discover.search.hereapi.com/v1/discover"
     latitude = 40.421249
     longitude = -74.702431
@@ -161,4 +165,5 @@ def getLocation(severity):
 
     r = requests.get(url = URL, params = PARAMS)
     data = r.json()
-    return data['items'][0]['address']['label']
+    
+    return data
