@@ -82,8 +82,6 @@ export default {
 
           const toPath = this.$route.query.to || '/'
 
-          console.log(token)
-
           this.$router.push(toPath)
         })
         .catch(error => {
