@@ -10,6 +10,7 @@ class User(AbstractUser):
     ]
 
     gender = models.CharField(choices=GENDERS, max_length=64, default="1")
+    age = models.IntegerField(null=True, blank=True, default=18)
 
    
 

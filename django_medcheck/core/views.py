@@ -38,6 +38,28 @@ class DiagnosesList(APIView):
 
 
 
+@api_view(['GET'])
+@authentication_classes([authentication.TokenAuthentication])
+@permission_classes([permissions.IsAuthenticated])
+def getUserData(request):
+
+    user = request.user 
+
+    diagnoses = len(Diagnosis.objects.filter(user=user))
+    critical = len(Diagnosis.objects.filter(user=request.user, severity="3"))
+    gender = user.gender
+    print(gender)
+    print(type(gender))
+    if gender == "1":
+        gender = "male"
+    else:
+        gender = "female"
+    age = user.age
+
+    return Response({'diagnoses': diagnoses, 'critical': critical, 'gender': gender, 'age': age})
+
+
+
 
 @api_view(['POST'])
 @authentication_classes([authentication.TokenAuthentication])

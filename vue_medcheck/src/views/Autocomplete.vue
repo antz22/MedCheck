@@ -118,19 +118,28 @@ import axios from 'axios'
 					})
 					.then(response => {
 						console.log(response.data)
-						this.summary = response.data
+						this.summary = response.data.summary
 						this.postDiagnosis()
 					})
 					.catch(error => {
-						// console.log(error)
+						console.log(error)
 					})
 
 			},
 			postDiagnosis() {
-				const django_base = 'http://0.0.0.0:5000'
+				const django_base = 'http://0.0.0.0:5000/api/v1/create-diagnosis/'
 				axios
 					.post(django_base, {
-						summary: `${this.summary}`
+						condition: `${this.diagnosis.Name}`,
+						severity: `${this.diagnosis.Rank}`,
+						summary: `${this.summary}`,
+						location: `hello`,
+						// location: `${this.diagnosis.Name`,
+
+    // condition = diagnosis_data['condition']
+    // severity = diagnosis_data['severity']
+    // summary = diagnosis_data['summary']
+    // location = diagnosis_data['location']
 					})
 
 			},
