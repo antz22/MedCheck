@@ -1,0 +1,9 @@
+import requests
+
+def getIpLocation(Ip_Address, Token_Key):
+	url = given url when anthony signs up for the key
+
+	headers = {'Content-Type':'application/json'}
+	response = requests.get(url, headers)
+	location = response.text
+	print(location)
