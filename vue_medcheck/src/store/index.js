@@ -9,7 +9,7 @@ export default createStore({
     initializeStore(state) {
       // login, authenticated or not
       if (localStorage.getItem('token')) {
-        state.token = localStorage.getItem('token') as string
+        state.token = localStorage.getItem('token')
         state.isAuthenticated = true
       } else {
         state.token = ''
