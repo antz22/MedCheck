@@ -6,12 +6,17 @@
       <Label class="list-title" text="Logs" row="0" horizontalAlignment="center"/>
 
       <GridLayout v-for="(diagnosis, index) in diagnoses" :key="diagnosis.id" 
-        class="diagnosis" :class="getSeverity(diagnosis.severity)" rows="auto,auto,auto" cols="auto,auto" :row="index+1">
+        class="diagnosis" rows="auto,auto,auto" cols="auto,auto" :row="index+1">
 
         <Label class="condition" :text="diagnosis.condition" horizontalAlignment="left" row="0"/>
-        <Label class="severity" :text="diagnosis.severity" horizontalAlignment="left" row="1"/>
-        <!-- <Label class="date" :text="diagnosis.date" horizontalAlignment="left" row="2"/> -->
-        <Label class="fas more" text.decode="More &#xf054;" horizontalAlignment="right" row="2" @tap="goToMore(diagnosis)"/>
+        <Label class="severity" :class="getSeverity(diagnosis.severity)" :text="getSeverityText(diagnosis.severity)" horizontalAlignment="left" row="1"/>
+        <Label class="date" :text="diagnosis.time" horizontalAlignment="left" row="2"/>
+        <Label class="more" horizontalAlignment="right" row="2" @tap="goToMore(diagnosis)" >
+          <FormattedString>
+            <Span text="More "/>
+            <Span class="fas" text.decode="&#xf054;"/>
+          </FormattedString>
+        </Label>
 
       </GridLayout>
 
@@ -53,14 +58,23 @@ export default {
           this.errors.push(error)
         })
     },
-    getSeverity(priority) {
-      if (priority === "3") {
-        return 'b-high'
-      } else if (priority === "2") {
-        return 'b-medium'
-      } else if (priority === "1") {
-        return 'b-low'
+    getSeverity(severity) {
+      if (severity === "3") {
+        return 's-high'
+      } else if (severity === "2") {
+        return 's-medium'
+      } else if (severity === "1") {
+        return 's-low'
       }
+    },
+    getSeverityText(severity) {
+			if (severity == "3") {
+				return "High Urgency - Seek Help"
+			} else if (severity == "2") {
+				return "Medium Urgency - Take Care"
+			} else if (severity == "1") {
+				return "Low Urgency - Self Care"
+			}
     },
 		goToMore(diagnosis) {
 			this.$navigateTo(DiagnosisView, {
@@ -94,8 +108,8 @@ export default {
 }
 
 .diagnosis {
-	margin-left: 50;
-	margin-right: 50;
+	margin-left: 35;
+	margin-right: 35;
 	background-color: #376BFC;
 	color: white;
   margin-bottom: 20;
@@ -106,8 +120,6 @@ export default {
 .condition {
   font-family: Montserrat, Montserrat SemiBold 600;
   font-size: 28px;
-  /* margin-left: 10;
-  margin-top: 10; */
 }
 
 .severity {
@@ -117,12 +129,32 @@ export default {
   margin-top: 10;
 }
 
-.more {
-  font-weight: normal;
+.date {
+  font-weight: 200;
   font-size: 16px;
-  margin-top: 5;
+  margin-top: 15;
   margin-right: 10;
   margin-bottom: 10;
+}
+
+.more {
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 15;
+  margin-right: 10;
+  margin-bottom: 10;
+}
+
+.s-high {
+  color: #FF3939;
+}
+
+.s-medium {
+  color: #FFE81E;
+}
+
+.s-low {
+  color: #56FF06;
 }
 
 </style>

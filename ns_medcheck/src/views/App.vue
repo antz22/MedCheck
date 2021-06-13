@@ -1,24 +1,19 @@
 <template>
   <Page actionBarHidden="true">
 
-    <!-- <ActionBar title="OneFocus" android:flat="true"/> -->
-
-    <TabView android:tabBackgroundColor="#53ba82"
-              android:tabTextColor="#c4ffdf"
+    <TabView android:tabBackgroundColor="#3351A6"
+              android:tabTextColor="#AFAFAF"
               android:selectedTabTextColor="#ffffff"
               androidSelectedTabHighlightColor="#ffffff"
               androidTabsPosition="bottom"
-              selectedIndex="1">
+              selectedIndex="0">
 
-      <!-- <TabViewItem class="fas" title.decode="Home &#xf015;"> -->
-      <!-- <TabViewItem class="fas" title.decode="&#xf469;"> -->
       <TabViewItem title="Home">
         <GridLayout columns="*" rows="*">
           <Home/>
         </GridLayout>
       </TabViewItem>
 
-      <!-- <TabViewItem class="fas" title.decode="Tasks &#xf0ae;"> -->
       <TabViewItem title="History">
         <GridLayout columns="*" rows="*">
           <History/>
@@ -47,7 +42,7 @@ export default {
 
 <style scoped>
 ActionBar {
-  background-color: #53ba82;
+  background-color: #3351A6;
   color: #ffffff;
 }
 </style>

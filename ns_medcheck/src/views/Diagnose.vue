@@ -1,13 +1,13 @@
 <template>
-	<Page>
+	<Page actionBarHidden="true">
 
 		<GridLayout rows="100,150,*" cols="auto">
 
 			<Label text="Check Up" class="page-title" row="0" horizontAlignment="center" verticalAlignment="center" />
 
-			<GridLayout rows="auto, auto" row="1">
+			<GridLayout rows="auto, auto" row="1" marginLeft="20" marginRight="20">
 				<StackLayout row="0" class="input-field">
-					<TextField class="input" hint="Gender..." :isEnabled="!processing"
+					<TextField class="input" hint="Gender..." 
 						autocorrect="false"
 						autocapitalizationType="none" v-model="gender"
 						returnKeyType="next"></TextField>
@@ -15,7 +15,7 @@
 				</StackLayout>
 
 				<StackLayout row="1" class="input-field">
-					<TextField class="input" ref="password" :isEnabled="!processing"
+					<TextField class="input" ref="password" 
 						hint="Age..." v-model="age"></TextField>
 					<StackLayout class="hr-light"></StackLayout>
 				</StackLayout>
@@ -24,10 +24,7 @@
 
 			<GridLayout rows="50,*" row="2">
 				<Label text="List Symptoms" class="page-subtitle" row="0"/>
-				<!-- <Button text="Create Diagnosis" @tap="getDiagnosis" row="1"/> -->
-				<!-- <Button @click="show2=!show2" text="add symptom" row="1" /> -->
-				<Autocomplete row="1"/>
-				<!-- <Autocomplete row="3" /> -->
+				<Autocomplete row="1" marginLeft="20" marginRight="20"/>
 			</GridLayout>
 
 		</GridLayout>
@@ -51,7 +48,6 @@ export default {
 			symptoms: [],
 			symptom1: {},
 
-			show2: false,
 		}
 	},
 	methods: {

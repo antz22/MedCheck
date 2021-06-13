@@ -26,7 +26,7 @@ class Diagnosis(models.Model):
     condition = models.CharField(null=True, blank=True, max_length=64)
     severity = models.CharField(choices=SEVERITIES, default="3", max_length=64)
     summary = models.TextField(null=True, blank=True)
-    location = models.CharField(null=True, blank=True, max_length=64)
-    time = models.DateTimeField(null=True, blank=True)
+    location = models.CharField(null=True, blank=True, max_length=128)
+    time = models.CharField(null=True, blank=True, default="June 12, 2021", max_length=64)
 
 

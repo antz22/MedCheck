@@ -2,7 +2,7 @@
   <Page actionBarHidden="true">
     <FlexboxLayout class="page">
       <StackLayout class="form">
-        <Label class="header fas" text.decode="OneFocus &#xf02d;"></Label>
+        <Label class="header fas" text.decode="&#xf00e; MedCheck"></Label>
 
         <GridLayout rows="auto, auto, auto">
           <StackLayout row="0" class="input-field">
@@ -78,7 +78,7 @@ export default {
     };
   },
   mounted() {
-    this.login()
+    // this.login()
   },
   methods: {
     toggleForm() {
@@ -109,13 +109,11 @@ export default {
       // localStorage.removeItem("token")
 
       const formData = {
-        // username: this.user.username,
-        // password: this.user.password
+        username: this.user.username,
+        password: this.user.password
 
-        // DELETE LATER
-
-        username: this.devUser.username,
-        password: this.devUser.password
+        // username: this.devUser.username,
+        // password: this.devUser.password
       }
 
       const headers = {
@@ -302,7 +300,7 @@ export default {
   height: 50;
   color: white;
   border-radius: 5; 
-  background-color: #A9988D;
+  background-color: #2D61EF;
   font-size: 22;
   font-weight: 400;
   margin-bottom: 20;

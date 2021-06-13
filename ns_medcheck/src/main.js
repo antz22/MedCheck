@@ -22,5 +22,5 @@ axios.defaults.baseURL = DEV_URL
 
 new Vue({
   store,
-  render: h => h('frame', [h(Login)])
+  render: h => h('frame', [h(LandingPage)])
 }).$start()

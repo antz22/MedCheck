@@ -592,3 +592,416 @@ JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d3
 JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1791586135, line 1: unreachable code after return statement
 JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1791586135 line 1 > eval, line 1: unreachable code after return statement
 1623542376119	Marionette	INFO	Stopped listening on port 38185
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623544979719	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:197334): GLib-GObject-CRITICAL **: 00:43:00.583: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:197350): GLib-GObject-CRITICAL **: 00:43:00.929: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623544982024	Marionette	INFO	Listening on port 34349
+1623544982106	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:197430): GLib-GObject-CRITICAL **: 00:43:02.173: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1994929746, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1994929746, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1994929746 line 1 > eval, line 1: unreachable code after return statement
+1623544985711	Marionette	INFO	Stopped listening on port 34349
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623547893263	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:212637): GLib-GObject-CRITICAL **: 01:31:34.012: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:212653): GLib-GObject-CRITICAL **: 01:31:34.300: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623547895256	Marionette	INFO	Listening on port 42727
+1623547895366	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:212741): GLib-GObject-CRITICAL **: 01:31:35.488: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1112578890, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1112578890, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1112578890 line 1 > eval, line 1: unreachable code after return statement
+1623547903434	Marionette	INFO	Stopped listening on port 42727
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623548441874	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:215552): GLib-GObject-CRITICAL **: 01:40:42.822: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:215568): GLib-GObject-CRITICAL **: 01:40:43.113: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623548444018	Marionette	INFO	Listening on port 37361
+1623548444084	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:215654): GLib-GObject-CRITICAL **: 01:40:44.225: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=273162976, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=273162976, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=273162976 line 1 > eval, line 1: unreachable code after return statement
+1623548450208	Marionette	INFO	Stopped listening on port 37361
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623548650454	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:216726): GLib-GObject-CRITICAL **: 01:44:11.548: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:216744): GLib-GObject-CRITICAL **: 01:44:12.149: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:216840): GLib-GObject-CRITICAL **: 01:44:13.886: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623548653998	Marionette	INFO	Listening on port 35121
+1623548654100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=244578705, line 1: unreachable code after return statement
+1623548659006	Marionette	INFO	Stopped listening on port 35121
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623553040719	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:240282): GLib-GObject-CRITICAL **: 02:57:22.106: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:240298): GLib-GObject-CRITICAL **: 02:57:22.354: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623553044266	Marionette	INFO	Listening on port 40875
+1623553044368	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:240403): GLib-GObject-CRITICAL **: 02:57:24.536: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1293418543, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1293418543, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1293418543 line 1 > eval, line 1: unreachable code after return statement
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623553155229	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:241024): GLib-GObject-CRITICAL **: 02:59:16.357: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:241040): GLib-GObject-CRITICAL **: 02:59:16.742: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623553158420	Marionette	INFO	Listening on port 45675
+1623553158510	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:241122): GLib-GObject-CRITICAL **: 02:59:18.669: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=284073217, line 1: unreachable code after return statement
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623553321136	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:242094): GLib-GObject-CRITICAL **: 03:02:02.923: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:242111): GLib-GObject-CRITICAL **: 03:02:03.943: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:242213): GLib-GObject-CRITICAL **: 03:02:06.052: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623553326174	Marionette	INFO	Listening on port 43821
+1623553326321	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1786597673, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1786597673, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1786597673 line 1 > eval, line 1: unreachable code after return statement
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623553427597	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:242803): GLib-GObject-CRITICAL **: 03:03:49.456: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:242820): GLib-GObject-CRITICAL **: 03:03:50.055: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:242923): GLib-GObject-CRITICAL **: 03:03:52.198: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623553432371	Marionette	INFO	Listening on port 37097
+1623553432438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=692546715, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=692546715, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=692546715 line 1 > eval, line 1: unreachable code after return statement
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623553536939	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:243544): GLib-GObject-CRITICAL **: 03:05:38.234: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:243574): GLib-GObject-CRITICAL **: 03:05:38.880: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:243662): GLib-GObject-CRITICAL **: 03:05:40.617: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623553540690	Marionette	INFO	Listening on port 41015
+1623553540793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1360209719, line 1: unreachable code after return statement
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623553656250	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:244566): GLib-GObject-CRITICAL **: 03:07:37.560: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:244584): GLib-GObject-CRITICAL **: 03:07:38.013: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623553659863	Marionette	INFO	Listening on port 43431
+1623553659985	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:244679): GLib-GObject-CRITICAL **: 03:07:40.106: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1073319636, line 1: unreachable code after return statement
+1623553667651	Marionette	INFO	Stopped listening on port 43431
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623554154851	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:247112): GLib-GObject-CRITICAL **: 03:15:55.554: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:247130): GLib-GObject-CRITICAL **: 03:15:55.811: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623554156726	Marionette	INFO	Listening on port 45155
+1623554156800	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:247227): GLib-GObject-CRITICAL **: 03:15:56.927: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=500297880, line 1: unreachable code after return statement
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623554227622	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:247644): GLib-GObject-CRITICAL **: 03:17:08.314: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:247660): GLib-GObject-CRITICAL **: 03:17:08.644: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623554229560	Marionette	INFO	Listening on port 34657
+1623554229619	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:247752): GLib-GObject-CRITICAL **: 03:17:09.759: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1472191398, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1472191398, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1472191398 line 1 > eval, line 1: unreachable code after return statement
+1623554249222	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554251601	Marionette	INFO	Listening on port 34221
+1623554251683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1895542985, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1895542985, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1895542985 line 1 > eval, line 1: unreachable code after return statement
+1623554257999	Marionette	INFO	Stopped listening on port 34221
+1623554371363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554373762	Marionette	INFO	Listening on port 38521
+1623554373847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1920202701, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1920202701, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1920202701 line 1 > eval, line 1: unreachable code after return statement
+1623554376763	Marionette	INFO	Stopped listening on port 38521
+1623554394712	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554397059	Marionette	INFO	Listening on port 44105
+1623554397145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1065877018, line 1: unreachable code after return statement
+JavaScript error: https://www.malacards.org/scripts/main?v=8HHDlaSjeEeFYEFB-952tIMUr-JN4ruwvNkk-xPpdHA1, line 1: TypeError: n.ownerDocument.defaultView is null
+1623554398453	Marionette	INFO	Stopped listening on port 44105
+1623554410634	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554412920	Marionette	INFO	Listening on port 40891
+1623554413002	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1310685899, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A00BA,name=PContent::Msg_StartVisitedQueries) Channel closing: too late to send/recv, messages will be lost
+
+1623554417500	Marionette	INFO	Stopped listening on port 40891
+1623554444249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554477241	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554479613	Marionette	INFO	Listening on port 34125
+1623554479694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2072799174, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2072799174, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2072799174 line 1 > eval, line 1: unreachable code after return statement
+1623554482016	Marionette	INFO	Stopped listening on port 34125
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623554547965	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554617465	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554619928	Marionette	INFO	Listening on port 39481
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+1623554620159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+1623554620486	Marionette	INFO	Stopped listening on port 39481
+1623554676691	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554678962	Marionette	INFO	Listening on port 37395
+1623554679053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1594957036, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1623554683513	Marionette	INFO	Stopped listening on port 37395
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623554767610	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554770004	Marionette	INFO	Listening on port 38901
+1623554770118	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+1623554770584	Marionette	INFO	Stopped listening on port 38901
+1623554830921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554833393	Marionette	INFO	Listening on port 36277
+1623554833510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=32204433, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=32204433, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=32204433 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.malacards.org/scripts/main?v=8HHDlaSjeEeFYEFB-952tIMUr-JN4ruwvNkk-xPpdHA1, line 1: TypeError: n.ownerDocument.defaultView is null
+1623554842652	Marionette	INFO	Stopped listening on port 36277
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623554969668	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623554972440	Marionette	INFO	Listening on port 39095
+1623554972541	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=937983913, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=937983913, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=937983913 line 1 > eval, line 1: unreachable code after return statement
+1623554980863	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+GeckoDriver.prototype.maximizeWindow@chrome://marionette/content/driver.js:2552:11
+1623554983660	Marionette	INFO	Stopped listening on port 39095
+1623555090923	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623555096771	Marionette	INFO	Listening on port 37027
+1623555096881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=28709923, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=28709923, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=28709923 line 1 > eval, line 1: unreachable code after return statement
+1623555106662	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+GeckoDriver.prototype.maximizeWindow@chrome://marionette/content/driver.js:2552:11
+1623555110109	Marionette	INFO	Stopped listening on port 37027
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623555796091	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:257698): GLib-GObject-CRITICAL **: 03:43:16.844: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:257714): GLib-GObject-CRITICAL **: 03:43:17.057: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623555797967	Marionette	INFO	Listening on port 32955
+1623555798073	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:257816): GLib-GObject-CRITICAL **: 03:43:18.174: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=190376144, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=190376144, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=190376144 line 1 > eval, line 1: unreachable code after return statement
+1623555805963	Marionette	INFO	Stopped listening on port 32955
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623555940656	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:258495): GLib-GObject-CRITICAL **: 03:45:42.137: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:258511): GLib-GObject-CRITICAL **: 03:45:42.581: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:258603): GLib-GObject-CRITICAL **: 03:45:44.575: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623555944595	Marionette	INFO	Listening on port 40747
+1623555944647	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=596418463, line 1: unreachable code after return statement
+1623555950069	Marionette	INFO	Stopped listening on port 40747
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623556152702	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:259676): GLib-GObject-CRITICAL **: 03:49:13.961: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:259696): GLib-GObject-CRITICAL **: 03:49:14.375: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:259773): GLib-GObject-CRITICAL **: 03:49:16.383: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623556156553	Marionette	INFO	Listening on port 40089
+1623556156603	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1473127069, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1473127069, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1473127069 line 1 > eval, line 1: unreachable code after return statement
+1623556162910	Marionette	INFO	Stopped listening on port 40089
+*** You are running in headless mode.
+*** You are running in headless mode.
+1623556257177	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:260300): GLib-GObject-CRITICAL **: 03:50:58.407: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:260317): GLib-GObject-CRITICAL **: 03:50:59.005: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:260400): GLib-GObject-CRITICAL **: 03:51:00.744: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1623556260813	Marionette	INFO	Listening on port 46637
+1623556260885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=207751610, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=207751610, line 1: unreachable code after return statement
+JavaScript warning: https://www.malacards.org/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=207751610 line 1 > eval, line 1: unreachable code after return statement
+1623556270121	Marionette	INFO	Stopped listening on port 46637
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -11,5 +11,6 @@ class DiagnosisSerializer(serializers.ModelSerializer):
             "condition",
             "severity",
             "summary",
-            "location"
+            "location",
+            "time",
         )

@@ -48,6 +48,13 @@ def getUserData(request):
     user = request.user 
 
     diagnoses = len(Diagnosis.objects.filter(user=user))
+
+    if diagnoses == 0:
+        lastdate = "No diagnoses!"
+
+    else: 
+        lastdate = Diagnosis.objects.filter(user=user).latest('id').time
+
     critical = len(Diagnosis.objects.filter(user=request.user, severity="3"))
     gender = user.gender
     if gender == "1":
@@ -55,8 +62,9 @@ def getUserData(request):
     else:
         gender = "female"
     age = user.age
+    username = user.username
 
-    return Response({'diagnoses': diagnoses, 'critical': critical, 'gender': gender, 'age': age})
+    return Response({'diagnoses': diagnoses, 'critical': critical, 'gender': gender, 'age': age, 'name': username, 'lastdate': lastdate})
 
 
 
@@ -69,10 +77,49 @@ def createDiagnosis(request):
     diagnosis_data = request.data
 
     condition = diagnosis_data['condition']
-    severity = diagnosis_data['severity']
+
+    SEVERITIES = {
+        'Cold': '1',
+        'Constipation': '1',
+        'Coronary Heart Disease': '3',
+        'Depression': '3',
+        'Strain of the back muscles': '2',
+        'Sperm cyst': '3',
+        'Drug side effect': '1',
+        'Smoking': '2',
+        'Slip disc': '3',
+        'Anxiety': '3',
+        'Influenza': '2',
+        'Shaking Palsy': '3',
+        'Scarlet Fever': '3',
+        'Reflux disease': '2',
+        'Pregnancy': '3',
+        'Hernia': '3',
+        'Huntington\'s disease': '3',
+        'Menopause': '2',
+        'Malignant Prostate Cancer': '3',
+        'Lyme Disease': '3',
+        'Loose watery stools': '2',
+        'Listeria Infection': '3',
+    }
+
+    try:
+
+        severity = SEVERITIES[condition]
+    
+    except KeyError:
+        severity = '1'
+
     summary = diagnosis_data['summary']
     location = diagnosis_data['location']
- 	time = datetime.date.now()
+
+    year = datetime.date.today().year
+    month = datetime.date.today().month
+    day = datetime.date.today().day
+
+    date = datetime.datetime(year, month, day)
+
+    time = date.strftime("%b %d, %Y")
 
     diagnosis = Diagnosis.objects.create(user=request.user, condition=condition, severity=severity, summary=summary, location=location, time=time)
     diagnosis.save()
@@ -103,16 +150,18 @@ def webScrape(request):
     element.click()
 
     textInSummary = []
-    # textInSummary = driver.find_element_by_xpath('//*[@id="Summary"]/b[2]/a').text  # changed path
     textInSummary = driver.find_element_by_xpath('//*[@id="Summary"]').text  # changed path
 
     numberOfTimesSeenPunctuation = 0
     i = 0
     finalSummary = []
 
+    print(textInSummary)
+
     deletedPrev = False
 
     while True:
+        print(finalSummary)
         if deletedPrev == False:
             # check if its a number, between 0 and 9
             if ord(textInSummary[i]) >= 48 and ord(textInSummary[i]) <= 57 and textInSummary[i+1] == ' ':
@@ -151,7 +200,6 @@ def getLocation(request):
     URL = "https://discover.search.hereapi.com/v1/discover"
     latitude = 40.421249
     longitude = -74.702431
-    # api_key = 'PQFopwzmkhU5CuVAeByR9uaK0KlCdy2C6xX4aeEzA5I'
     api_key = 'JsnHjC1KLaPcvfi82Pn_IK9diu9AaGkVAyKVWKDb1p0'
     query = 'pharmacies'
 
