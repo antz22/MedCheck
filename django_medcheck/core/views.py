@@ -71,8 +71,10 @@ def createDiagnosis(request):
     severity = diagnosis_data['severity']
     summary = diagnosis_data['summary']
     location = diagnosis_data['location']
+    # fill in here
+    # time = blah
 
-    diagnosis = Diagnosis.objects.create(user=request.user, condition=condition, severity=severity, summary=summary, location=location)
+    diagnosis = Diagnosis.objects.create(user=request.user, condition=condition, severity=severity, summary=summary, location=location, time=time)
     diagnosis.save()
 
     return Response(status=status.HTTP_201_CREATED)
@@ -114,7 +116,7 @@ def webScrape(request):
         if deletedPrev == False:
             # check if its a number, between 0 and 9
             if ord(textInSummary[i]) >= 48 and ord(textInSummary[i]) <= 57 and textInSummary[i+1] == ' ':
-                textInSummary = textInSummary[i+1:]
+                textInSummary = textInSummary[i+2:]
                 deletedPrev = True
                 i = 0
             else:
@@ -137,6 +139,10 @@ def webScrape(request):
     # should return json
     return Response({'summary': finalSummary}, status=status.HTTP_200_OK)
 
+
+@api_view(['POST'])
+@authentication_classes([authentication.TokenAuthentication])
+@permission_classes([permissions.IsAuthenticated])
 def getLocation(request):
     
     req_data = request.data
@@ -145,7 +151,8 @@ def getLocation(request):
     URL = "https://discover.search.hereapi.com/v1/discover"
     latitude = 40.421249
     longitude = -74.702431
-    api_key = 'PQFopwzmkhU5CuVAeByR9uaK0KlCdy2C6xX4aeEzA5I'
+    # api_key = 'PQFopwzmkhU5CuVAeByR9uaK0KlCdy2C6xX4aeEzA5I'
+    api_key = 'JsnHjC1KLaPcvfi82Pn_IK9diu9AaGkVAyKVWKDb1p0'
     query = 'pharmacies'
 
     if (severity == 3):
@@ -164,4 +171,4 @@ def getLocation(request):
     r = requests.get(url = URL, params = PARAMS)
     data = r.json()
     
-    return data
+    return Response(data)

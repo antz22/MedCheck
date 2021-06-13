@@ -135,7 +135,7 @@ import axios from 'axios'
 					})
 					.then(response => {
 						console.log(response.data)
-						this.location = response.data['items'][0][label]
+						this.location = response.data['items'][0]['address']['label']
             this.postDiagnosis()
 					})
 					.catch(error => {

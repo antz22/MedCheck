@@ -12,14 +12,14 @@
 
       <!-- <TabViewItem class="fas" title.decode="Home &#xf015;"> -->
       <!-- <TabViewItem class="fas" title.decode="&#xf469;"> -->
-      <TabViewItem title="Component 1">
+      <TabViewItem title="Home">
         <GridLayout columns="*" rows="*">
           <Home/>
         </GridLayout>
       </TabViewItem>
 
       <!-- <TabViewItem class="fas" title.decode="Tasks &#xf0ae;"> -->
-      <TabViewItem title="Component 2">
+      <TabViewItem title="History">
         <GridLayout columns="*" rows="*">
           <History/>
         </GridLayout>

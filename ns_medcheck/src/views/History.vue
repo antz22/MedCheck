@@ -1,20 +1,24 @@
 <template>
+  <ScrollView>
 
-  <GridLayout class="logs" :rows="rows">
+    <GridLayout class="logs" :rows="rows">
 
-    <Label class="list-title" text="Logs" row="0" horizontalAlignment="center"/>
+      <Label class="list-title" text="Logs" row="0" horizontalAlignment="center"/>
 
-    <GridLayout v-for="(diagnosis, index) in diagnoses" :key="diagnosis.id" 
-      class="diagnosis" :class="getSeverity(diagnosis.severity)" rows="auto,auto,auto" cols="auto,auto" :row="index+1">
+      <GridLayout v-for="(diagnosis, index) in diagnoses" :key="diagnosis.id" 
+        class="diagnosis" :class="getSeverity(diagnosis.severity)" rows="auto,auto,auto" cols="auto,auto" :row="index+1">
 
-      <Label class="condition" :text="diagnosis.condition" horizontalAlignment="left" row="0"/>
-      <Label class="severity" :text="diagnosis.severity" horizontalAlignment="left" row="1"/>
-      <!-- <Label class="date" :text="diagnosis.date" horizontalAlignment="left" row="2"/> -->
-      <Label class="fas more" text.decode="More &#xf054;" horizontalAlignment="right" row="2" @tap="goToMore(diagnosis)"/>
+        <Label class="condition" :text="diagnosis.condition" horizontalAlignment="left" row="0"/>
+        <Label class="severity" :text="diagnosis.severity" horizontalAlignment="left" row="1"/>
+        <!-- <Label class="date" :text="diagnosis.date" horizontalAlignment="left" row="2"/> -->
+        <Label class="fas more" text.decode="More &#xf054;" horizontalAlignment="right" row="2" @tap="goToMore(diagnosis)"/>
+
+      </GridLayout>
 
     </GridLayout>
 
-  </GridLayout>
+  </ScrollView>
+
 
 </template>
 

@@ -1,16 +1,16 @@
 <template>
 	<Page actionBarHidden="true">
-		<GridLayout class="diagnosis-card" rows="50,40,60,*,100">
+		<GridLayout class="diagnosis-card" rows="60,40,60,auto,auto">
 			<Label row="0" :text="condition" class="condition" marginLeft="20" marginTop="20"/>
 			<Label row="1" text="Low Urgency - self care" class="severity" marginLeft="20" marginTop="20"/>
 			<Label row="2" text="June 09, 2021" class="date" marginLeft="20" marginTop="20"/>
 			<StackLayout row="3" class="condition-info">
 				<Label text="Condition" class="condition-title" />
-				<Label textWrap="true" :text="summary" />
+				<Label textWrap="true" :text="summary" class="condition-summary"/>
 			</StackLayout>
 			<StackLayout row="4" class="condition-info">
 				<Label text="Nearest Location" class="condition-title" />
-				<Label :text="location" />
+				<Label :text="location" textWrap="true" class="condition-summary" />
 			</StackLayout>
 
 		</GridLayout>
@@ -59,14 +59,30 @@ export default {
 	color: white;
 	margin: 15;
 	padding: 15;
+	background-color: #507FFE;
 
 	.condition-title {
 		font-weight: 400;
+		font-size: 22;
 		
 
 	}
 
+	.condition-summary {
+		margin-top: 20;
+		font-weight: 200;
+	}
 
+
+}
+
+.location-ting {
+	margin-top: 20;
+	font-size: 18;
+}
+
+.severity {
+	font-size: 18;
 }
 
 </style>
