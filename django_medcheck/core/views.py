@@ -27,6 +27,7 @@ from .models import User, Diagnosis
 from .serializers import DiagnosisSerializer
 
 import requests
+import datetime
 
 class DiagnosesList(APIView):
     authentication_classes = [authentication.TokenAuthentication]
@@ -71,8 +72,7 @@ def createDiagnosis(request):
     severity = diagnosis_data['severity']
     summary = diagnosis_data['summary']
     location = diagnosis_data['location']
-    # fill in here
-    # time = blah
+ 	time = datetime.date.now()
 
     diagnosis = Diagnosis.objects.create(user=request.user, condition=condition, severity=severity, summary=summary, location=location, time=time)
     diagnosis.save()
