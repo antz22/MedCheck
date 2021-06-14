@@ -27,7 +27,7 @@ We learned about developing a full-stack app, web-scraping in python, and genera
 
 ## What's next for MedCheck
 
-We plan to use machine learning to optimize our diagnosis.
+We plan to use machine learning to optimize our diagnosis, and to find a more robust API for providing diagnoses and symptoms.
 
 ## Built With
 
@@ -38,6 +38,7 @@ We plan to use machine learning to optimize our diagnosis.
     python
     selenium
     vue
+	here-geocoder
 
 ## Screenshots
 
