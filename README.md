@@ -42,7 +42,7 @@ We plan to use machine learning to optimize our diagnosis, and to find a more ro
 
 ## Screenshots
 
-<img src="https://github.com/antz22/MedCheck/blob/master/images/medcheck.png" width="300"> <img src="https://github.com/antz22/MedCheck/blob/master/images/home.png" width="300">
-<img src="https://github.com/antz22/MedCheck/blob/master/images/logs.png" width="300"> <img src="https://github.com/antz22/MedCheck/blob/master/images/diagnosis.png" width="300">
+<img src="https://github.com/antz22/MedCheck/blob/master/assets/medcheck.png" width="300"> <img src="https://github.com/antz22/MedCheck/blob/master/assets/home.png" width="300">
+<img src="https://github.com/antz22/MedCheck/blob/master/assets/logs.png" width="300"> <img src="https://github.com/antz22/MedCheck/blob/master/assets/diagnosis.png" width="300">
 
 :)
