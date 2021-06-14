@@ -39,4 +39,11 @@ We plan to use machine learning to optimize our diagnosis.
     selenium
     vue
 
+## Screenshots
+
+![MedCheck](https://github.com/antz22/MedCheck/blob/master/images/medcheck.png)
+![Home](https://github.com/antz22/MedCheck/blob/master/images/home.png)
+![Logs](https://github.com/antz22/MedCheck/blob/master/images/logs.png)
+![Diagnosis](https://github.com/antz22/MedCheck/blob/master/images/diagnosis.png)
+
 :)
