@@ -22,7 +22,7 @@ import axios from 'axios'
       };
     },
     mounted() {
-			this.getUserData()
+      this.getUserData()
     },
     methods: {
       getUserData() {
